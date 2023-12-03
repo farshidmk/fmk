@@ -5,7 +5,7 @@ import React from "react";
 
 const StringLiterals = () => {
   const code = `type Routes = "/users" | "/users/:id" | "/posts" | "/posts/:id";
-type DynamicRoutes = Extract<Routes, ${"${string}"}:${"${string}"} >;`;
+type DynamicRoutes = Extract<Routes, ${"`${string}`"}:${"`${string}`"} >;`;
   return (
     <div className="h-full">
       <LessonTitle title="Template Literals" />
