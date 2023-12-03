@@ -21,7 +21,7 @@ const ThemeChanger = () => {
   const light = theme === "light";
   //TODO: round sun and moon like https://kentcdodds.com/
   return (
-    <button className="ml-10 dark:bg-gray-900 dark:text-yellow-400 bg-gray-100 text-gray-900 w-24 rounded-full flex justify-center items-center">
+    <button className="ml-10 dark:bg-gray-900 dark:text-yellow-400 bg-gray-100 text-gray-900 w-24 rounded-full flex justify-center items-center text-white">
       {light ? (
         <BsMoonStarsFill onClick={() => setTheme("dark")} size={20} />
       ) : (
